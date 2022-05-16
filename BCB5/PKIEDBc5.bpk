@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="PKIEDBc5.bpl"/>
+    <OBJFILES value="DBImageEn.obj dbimageenvect.obj PKIEDBc5.obj"/>
+    <RESFILES value="PKIEDBc5.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dclocx50.lib nmfast50.lib tee50.lib teedb50.lib teeui50.lib ibsmp50.lib 
+      qrpt50.lib bcbsmp50.lib vcljpg50.lib"/>
+    <SPARELIBS value="vcl50.lib vclx50.lib vcljpg50.lib bcbsmp50.lib qrpt50.lib vcldb50.lib 
+      vclbde50.lib ibsmp50.lib vcldbx50.lib teeui50.lib teedb50.lib tee50.lib 
+      nmfast50.lib dclocx50.lib pkiectrlc5.lib"/>
+    <PACKAGES value="PKIECTRLc5.bpi vcl50.bpi vclx50.bpi vcldbx50.bpi vcldb50.bpi vclbde50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="VER130BCB"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="PKIEDBc5.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value=";;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -Vx -Ve -X- -a8 -4 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$C- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=HiComponents
+FileDescription=
+FileVersion=0.0.0.0
+InternalName=
+LegalCopyright=HiComponents
+LegalTrademarks=HiComponents
+OriginalFilename=
+ProductName=ImageEn
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=19
+Item0=;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item4=;;;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=;;;;;;;;;;;;;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=;;;;;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item7=;;;;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item8=;;;;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item9=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item10=;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item11=;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item12=;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item13=;;;;;;;;;;;;;;;;;;;;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item14=;;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item15=;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item16=;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item17=;;;;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item18=$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=VER130BCB
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

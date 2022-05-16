@@ -1,0 +1,192 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{45aa2e0e-3bd3-483b-aec1-4792f20918ac}</ProjectGuid>
+			<MainSource>PKIECtrl14.dpk</MainSource>
+			<Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+			<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>PKIECtrl14.bpl</DCC_DependencyCheckOutputName>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Release</Config>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UNIT_DEPRECATED>false</DCC_UNIT_DEPRECATED>
+			<DCC_DependencyCheckOutputName>PKIECtrl14.bpl</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DesignOnlyPackage>false</DesignOnlyPackage>
+			<RuntimeOnlyPackage>true</RuntimeOnlyPackage>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;BCB;$(DCC_Define)</DCC_Define>
+			<DCC_Description>ImageEn Control</DCC_Description>
+			<DCC_AssertionsAtRuntime>false</DCC_AssertionsAtRuntime>
+			<DCC_OutputNeverBuildDcps>true</DCC_OutputNeverBuildDcps>
+			<GenDll>true</GenDll>
+			<GenPackage>true</GenPackage>
+			<DCC_WriteableConstants>true</DCC_WriteableConstants>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<Version>7.0</Version>
+			<DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_WriteableConstants>True</DCC_WriteableConstants>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_CBuilderOutput>All</DCC_CBuilderOutput>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<Version>7.0</Version>
+			<DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+			<DCC_DebugInformation>False</DCC_DebugInformation>
+			<DCC_WriteableConstants>True</DCC_WriteableConstants>
+			<DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="PKIECtrl14.dpk">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="vcl.dcp"/>
+			<DCCReference Include="vclx.dcp"/>
+			<DCCReference Include="rtl.dcp"/>
+			<DCCReference Include="HistogramBox.pas"/>
+			<DCCReference Include="HSVBox.pas"/>
+			<DCCReference Include="ImageEn.pas"/>
+			<DCCReference Include="ImageEnIO.pas"/>
+			<DCCReference Include="ImageEnProc.pas"/>
+			<DCCReference Include="ImageEnView.pas"/>
+			<DCCReference Include="imscan.pas"/>
+			<DCCReference Include="jpegfilt.pas"/>
+			<DCCReference Include="NeurQuant.pas"/>
+			<DCCReference Include="PCXFilter.pas"/>
+			<DCCReference Include="RulerBox.pas"/>
+			<DCCReference Include="TIFCCITT.pas"/>
+			<DCCReference Include="Tiffilt.pas"/>
+			<DCCReference Include="GIFFilter.pas"/>
+			<DCCReference Include="BMPFilt.pas"/>
+			<DCCReference Include="IEGradientBar.pas"/>
+			<DCCReference Include="IEVect.pas"/>
+			<DCCReference Include="IEMView.pas"/>
+			<DCCReference Include="IEMIO.pas"/>
+			<DCCReference Include="IEVfw.pas"/>
+			<DCCReference Include="pngfiltw.pas"/>
+			<DCCReference Include="pngfilt.pas"/>
+			<DCCReference Include="VideoCap.pas"/>
+			<DCCReference Include="ieopensavedlg.pas"/>
+			<DCCReference Include="ietwain.pas"/>
+			<DCCReference Include="stdquant.pas"/>
+			<DCCReference Include="IOPreviews.pas">
+				<Form>fIOPreviews</Form>
+			</DCCReference>
+			<DCCReference Include="Previews.pas">
+				<Form>fPreviews</Form>
+			</DCCReference>
+			<DCCReference Include="iefft.pas"/>
+			<DCCReference Include="iewords.pas"/>
+			<DCCReference Include="ietgafil.pas"/>
+			<DCCReference Include="hvideocap.pas"/>
+			<DCCReference Include="hyieutils.pas"/>
+			<DCCReference Include="hyiedefs.pas"/>
+			<DCCReference Include="ieview.pas"/>
+			<DCCReference Include="ieprnform2.pas">
+				<Form>fieprnform2</Form>
+			</DCCReference>
+			<DCCReference Include="ieprnform1.pas">
+				<Form>fieprnform1</Form>
+			</DCCReference>
+			<DCCReference Include="iej2000.pas"/>
+			<DCCReference Include="ietextc.pas"/>
+			<DCCReference Include="iewia.pas"/>
+			<DCCReference Include="ielcms.pas"/>
+			<DCCReference Include="iezlib.pas"/>
+			<DCCReference Include="ieprnform3.pas"/>
+			<DCCReference Include="tiflzw.pas"/>
+			<DCCReference Include="giflzw.pas"/>
+			<DCCReference Include="ieds.pas"/>
+			<DCCReference Include="ieXtraTransitions.pas"/>
+			<DCCReference Include="iepresetim.pas"/>
+			<DCCReference Include="ieraw.pas"/>
+			<DCCReference Include="iepsd.pas"/>
+			<DCCReference Include="iedicom.pas"/>
+			<DCCReference Include="iegdiplus.pas"/>
+			<DCCReference Include="iewic.pas"/>
+			<DCCReference Include="ieXCanvasUtils.pas"/>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Package</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">0</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1033</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">0.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">PKIECtrl14.dpk</Source>
+					</Source>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcboffice2k140.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\bcbofficexp140.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp140.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

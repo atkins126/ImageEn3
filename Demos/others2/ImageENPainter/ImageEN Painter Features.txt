@@ -1,0 +1,47 @@
+ImageEN Painter Features
+Draw Point
+Draw Line
+Draw Rectangle
+Draw Ellipse
+Draw Filled Rectangle
+Draw Filled Ellipse
+Opacity Control
+Erase
+Fill
+Pick Color
+Pick Transparent Color
+Paint Square Brush
+Paint Round Brush
+Spray Paint with Antialiasing
+Undo
+Redo
+Cut
+Copy
+Paste
+Crop
+Resize
+Resample
+Rotate
+Flip
+Select None
+Select Rectangle
+Select Ellipse
+Zoom
+Select Zoom To Rect
+Select Lasso
+Select Polygon
+Select Magic Wand
+Save Selection
+Restore Selection
+Convert To 32-bit
+Convert To 24-bit
+Convert To 8-bit
+Convert To 4-bit
+View Extent (100%)
+View Fit
+
+Needs Improvement
+Erase
+
+Known Bugs
+Brush Undo/Redo does not work

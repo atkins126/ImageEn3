@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="PKIEDBc6.bpl"/>
+    <OBJFILES value="PKIEDBc6.obj DBImageEn.obj dbimageenvect.obj"/>
+    <RESFILES value="PKIEDBc6.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dclocx.lib nmfast.lib tee.lib teedb.lib teeui.lib ibsmp.lib qrpt.lib 
+      bcbsmp.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib bcbsmp.lib qrpt.lib dbrtl.lib vcldb.lib 
+      bdertl.lib ibsmp.lib vcldbx.lib teeui.lib teedb.lib tee.lib nmfast.lib 
+      dclocx.lib pkiectrlc6.lib"/>
+    <PACKAGES value="PKIECTRLc6.bpi rtl.bpi vcl.bpi vclx.bpi vcldbx.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="VER140BCB"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="PKIEDBc6.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -Vx -Ve -X- -a8 -4 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$C- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="PKIEDBc6.cpp" FORMNAME="" UNITNAME="PKIEDBc6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PKIEDBc6.res" FORMNAME="" UNITNAME="PKIEDBc6" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DBImageEn.pas" FORMNAME="" UNITNAME="DBImageEn" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PKIECTRLc6.bpi" FORMNAME="" UNITNAME="PKIECTRLc6" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbimageenvect.pas" FORMNAME="" UNITNAME="dbimageenvect" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcldbx.bpi" FORMNAME="" UNITNAME="vcldbx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcldb.bpi" FORMNAME="" UNITNAME="vcldb" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bdertl.bpi" FORMNAME="" UNITNAME="bdertl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=HiComponents
+FileDescription=
+FileVersion=0.0.0.0
+InternalName=
+LegalCopyright=HiComponents
+LegalTrademarks=HiComponents
+OriginalFilename=
+ProductName=ImageEn
+ProductVersion=1.0.0.0
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=11
+Item0=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Sviluppo\ImageEn\jpegobj6b
+Item2=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Sviluppo\ImageEn\jpegobj6b;C:\Sviluppo\ImageEn\PngObj
+Item3=$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release;$(BCB)\lib\obj;$(BCB)\lib
+Item4=;;;;;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item5=;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item6=;;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item7=;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item8=;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item9=;;;;;;;;;;$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+Item10=$(BCB)\Projects\Lib;C:\programmi\borland\cbuilder4\lib\release\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=VER140BCB
+Item1=VER140;BCB
+Item2=VER130BCB
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

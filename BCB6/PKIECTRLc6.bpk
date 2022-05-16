@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="PKIECTRLc6.bpl"/>
+    <OBJFILES value="PKIECTRLc6.obj VideoCap.obj GIFFilter.obj GifLZW.obj HistogramBox.obj 
+      HSVBox.obj IEGradientBar.obj IEMIO.obj IEMView.obj IEOpenSaveDlg.obj 
+      IEVect.obj IEVfw.obj ImageEn.obj ImageEnIO.obj ImageEnProc.obj 
+      ImageEnView.obj imscan.obj jpegfilt.obj NeurQuant.obj PCXFilter.obj 
+      pngfilt.obj pngfiltw.obj RulerBox.obj TIFCCITT.obj Tiffilt.obj TIFLZW.obj 
+      BMPFilt.obj ietwain.obj stdquant.obj iewords.obj iefft.obj ietgafil.obj 
+      hvideocap.obj hyieutils.obj hyiedefs.obj ieview.obj ieprnform2.obj 
+      ieprnform1.obj iej2000.obj ietextc.obj iewia.obj ieds.obj ieprnform3.obj 
+      iezlib.obj ielcms.obj ieXtraTransitions.obj iepresetim.obj ieraw.obj 
+      iepsd.obj iedicom.obj iegdiplus.obj iewic.obj ieXCanvasUtils.obj"/>
+    <RESFILES value="PKIECTRLc6.res"/>
+    <IDLFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ieprnform2.dfm ieprnform1.dfm ieprnform3.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="PKIEDBc6.lib bcb2kaxserver.lib indy.lib dbxcds.lib soaprtl.lib 
+      dbexpress.lib inetdbxpress.lib inetdb.lib inetdbbde.lib inet.lib 
+      xmlrtl.lib visualdbclx.lib ibxpress.lib teeqr.lib bdecds.lib cds.lib 
+      dsnap.lib adortl.lib dclocx.lib nmfast.lib tee.lib teedb.lib teeui.lib 
+      vcldbx.lib ibsmp.lib bdertl.lib vcldb.lib dbrtl.lib qrpt.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib bcbsmp.lib qrpt.lib dbrtl.lib vcldb.lib 
+      bdertl.lib ibsmp.lib vcldbx.lib teeui.lib teedb.lib tee.lib nmfast.lib 
+      dclocx.lib adortl.lib dsnap.lib cds.lib bdecds.lib teeqr.lib ibxpress.lib 
+      visualdbclx.lib xmlrtl.lib inet.lib inetdbbde.lib inetdb.lib 
+      inetdbxpress.lib dbexpress.lib bcbie.lib soaprtl.lib dbxcds.lib indy.lib 
+      bcb2kaxserver.lib PKIEDBc6.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi bcbie.bpi visualclx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="VER140BCB"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="PKIECTRLc6.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -Vx -Ve -X- -a8 -4 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$C- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;ImageEn Controls&quot; -aa -Tpp -Gpr -GD -s -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="PKIECTRLc6.cpp" FORMNAME="" UNITNAME="PKIECTRLc6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PKIECTRLc6.res" FORMNAME="" UNITNAME="PKIECTRLc6" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="VideoCap.pas" FORMNAME="" UNITNAME="VideoCap" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GIFFilter.pas" FORMNAME="" UNITNAME="GIFFilter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GifLZW.pas" FORMNAME="" UNITNAME="GifLZW" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HistogramBox.pas" FORMNAME="" UNITNAME="HistogramBox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HSVBox.pas" FORMNAME="" UNITNAME="HSVBox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IEGradientBar.pas" FORMNAME="" UNITNAME="IEGradientBar" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IEMIO.pas" FORMNAME="" UNITNAME="IEMIO" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IEMView.pas" FORMNAME="" UNITNAME="IEMView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IEOpenSaveDlg.pas" FORMNAME="" UNITNAME="IEOpenSaveDlg" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IEVect.pas" FORMNAME="" UNITNAME="IEVect" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IEVfw.pas" FORMNAME="" UNITNAME="IEVfw" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageEn.pas" FORMNAME="" UNITNAME="ImageEn" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageEnIO.pas" FORMNAME="" UNITNAME="ImageEnIO" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageEnProc.pas" FORMNAME="" UNITNAME="ImageEnProc" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ImageEnView.pas" FORMNAME="" UNITNAME="ImageEnView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="imscan.pas" FORMNAME="" UNITNAME="imscan" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="jpegfilt.pas" FORMNAME="" UNITNAME="jpegfilt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NeurQuant.pas" FORMNAME="" UNITNAME="NeurQuant" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PCXFilter.pas" FORMNAME="" UNITNAME="PCXFilter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="pngfilt.pas" FORMNAME="" UNITNAME="pngfilt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="pngfiltw.pas" FORMNAME="" UNITNAME="pngfiltw" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RulerBox.pas" FORMNAME="" UNITNAME="RulerBox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TIFCCITT.pas" FORMNAME="" UNITNAME="TIFCCITT" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Tiffilt.pas" FORMNAME="" UNITNAME="Tiffilt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TIFLZW.pas" FORMNAME="" UNITNAME="TIFLZW" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BMPFilt.pas" FORMNAME="" UNITNAME="BMPFilt" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ietwain.pas" FORMNAME="" UNITNAME="ietwain" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="stdquant.pas" FORMNAME="" UNITNAME="stdquant" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iewords.pas" FORMNAME="" UNITNAME="iewords" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iefft.pas" FORMNAME="" UNITNAME="iefft" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ietgafil.pas" FORMNAME="" UNITNAME="ietgafil" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="hvideocap.pas" FORMNAME="" UNITNAME="hvideocap" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="hyieutils.pas" FORMNAME="" UNITNAME="hyieutils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="hyiedefs.pas" FORMNAME="" UNITNAME="hyiedefs" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieview.pas" FORMNAME="" UNITNAME="ieview" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieprnform2.pas" FORMNAME="fieprnform2" UNITNAME="Ieprnform2" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieprnform1.pas" FORMNAME="fieprnform1" UNITNAME="Ieprnform1" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbsmp.bpi" FORMNAME="" UNITNAME="bcbsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbie.bpi" FORMNAME="" UNITNAME="bcbie" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iej2000.pas" FORMNAME="" UNITNAME="iej2000" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="visualclx.bpi" FORMNAME="" UNITNAME="visualclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ietextc.pas" FORMNAME="" UNITNAME="ietextc" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iewia.pas" FORMNAME="" UNITNAME="iewia" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieds.pas" FORMNAME="" UNITNAME="ieds" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieprnform3.pas" FORMNAME="fieprnform3" UNITNAME="ieprnform3" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iezlib.pas" FORMNAME="" UNITNAME="iezlib" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ielcms.pas" FORMNAME="" UNITNAME="ielcms" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieXtraTransitions.pas" FORMNAME="" UNITNAME="ieXtraTransitions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iepresetim.pas" FORMNAME="" UNITNAME="iepresetim" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieraw.pas" FORMNAME="" UNITNAME="ieraw" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iepsd.pas" FORMNAME="" UNITNAME="iepsd" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iedicom.pas" FORMNAME="" UNITNAME="iedicom" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iegdiplus.pas" FORMNAME="" UNITNAME="iegdiplus" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="iewic.pas" FORMNAME="" UNITNAME="iewic" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ieXCanvasUtils.pas" FORMNAME="" UNITNAME="ieXCanvasUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=0
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1040
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\lib\obj;$(BCB)\lib;C:\Sviluppo\ImageEn\jpegobj6b
+Item2=$(BCB)\lib\obj;$(BCB)\lib;C:\Sviluppo\ImageEn\jpegobj6b;C:\Sviluppo\ImageEn\PngObj
+Item3=C:\Programmi\Borland\CBuilder4\Lib\Release;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\Programmi\Borland\CBuilder4\Lib\Release\;$(BCB)\lib\obj;$(BCB)\lib
+Item5=..\..\..\Programmi\Borland\CBuilder4\Lib\Release;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=VER140BCB
+Item1=VER140;BCB
+Item2=VER130BCB
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

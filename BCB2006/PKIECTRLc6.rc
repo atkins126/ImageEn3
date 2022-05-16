@@ -1,0 +1,26 @@
+1 VERSIONINFO
+FILEVERSION 0,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3FL
+FILEFLAGS 0x00L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+         BLOCK "080104E4"
+         BEGIN
+              VALUE "CompanyName", "HiComponents\0"
+              VALUE "FileVersion", "0.0.0.0\0"
+              VALUE "LegalCopyright", "HiComponents\0"
+              VALUE "LegalTrademarks", "HiComponents\0"
+              VALUE "ProductName", "ImageEn\0"
+              VALUE "ProductVersion", "1.0.0.0\0"
+         END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+         VALUE "Translation", 0x0801, 1252
+    END
+END

@@ -1,0 +1,56 @@
+:Base ImageEn.hlp
+:Title ImageEn
+1 Introduction
+2 ImageEn=MAININDEX
+2 Features=Features
+2 Installation=Installation
+2 What's new=What's new
+2 ImageEn hierarchy=ImageEn hierarchy
+2 Helper functions=Helper functions
+2 Public variables=Public variables
+2 The Color Management System=The Color Management System
+2 Compatibility issues=Compatibility issues
+2 Supported RAW Camera Formats=List of supported Camera RAW formats
+2 FAQ=FAQ
+2 License agreement=License agreement
+1 Display
+2 TImageEnView component Reference=TImageEnView
+2 TImageEnVect component Reference=TImageEnVect
+2 TImageEnMView component Reference=TImageEnMView
+1 Image processing
+2 TImageEnProc component Reference=TImageEnProc
+2 TIEICC class reference=TIEICC
+1 Input/output
+2 TImageEnIO component Reference=TImageEnIO
+2 TImageEnMIO component Reference=TImageEnMIO
+2 TOpenImageEnDialog component Reference=TOpenImageEnDialog
+2 TSaveImageEnDialog component Reference=TSaveImageEnDialog
+2 TIEHashStream class reference=TIEHashStream
+2 TIEResourceExtractor class reference=TIEResourceExtractor
+2 TIETIFFHandler class reference=TIETIFFHandler
+2 TIETagsHandler class reference=TIETagsHandler
+2 TIEWICReader class reference=TIEWICReader
+2 TIEWICWriter class reference=TIEWICWriter
+2 TIOParamsVals class reference=TIOParamsVals
+2 TIERFBClient class reference=TIERFBClient
+2 Custom file format support=Custom file format support
+2 Lossless Jpeg transformations=Jpeg lossless transformations functions
+2 Multipage Tiff/Gif functions=Multipage Tiff-Gif functions
+1 Capture
+2 TImageEnVideoView component Reference=TImageEnVideoView
+2 TImageEnVideoCap component Reference=TImageEnVideoCap
+2 TIEDirectShow class reference=TIEDirectShow
+2 TIEWia class reference=TIEWia
+2 TIEMediaReader class reference=TIEMediaReader
+2 TIETWainParams class reference=TIETWainParams
+1 Database
+2 TImageEnDBView component Reference=TImageEnDBView
+2 TImageEnDBVect component Reference=TImageEnDBVect
+1 Other components
+2 THSVBox component Reference=THSVBox
+2 TRulerBox component Reference=TRulerBox
+2 TIEGradientBar component Reference=TIEGradientBar
+2 THistogramBox component Reference=THistogramBox
+1 Other classes
+2 TIEBitmap class reference=TIEBitmap
+2 TIEMask class reference=TIEMask
